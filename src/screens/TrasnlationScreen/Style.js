@@ -48,14 +48,13 @@ export default StyleSheet.create({
     position: 'relative',
   },
   nestedImage: {
-    position: 'absolute',
-    width: screenWidthPer * 36,
-    height: screenHeightPer * 12,
-    marginTop: '-35%',
-    marginLeft: '-240%',
+    width: screenWidthPer * 30,
+    height: screenHeightPer * 15,
+    marginRight: '8%',
   },
   iconContainer: {
     flexDirection: 'row',
+    alignItems: 'center',
   },
   icon: {
     width: 45,
